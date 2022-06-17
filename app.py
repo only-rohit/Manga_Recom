@@ -10,8 +10,8 @@ from surprise import Dataset
 reading_no_zero_df = pd.read_csv('./data/reading_no_zero.csv')
 combined_all_info_df = pd.read_csv('./data/combined_all_info_df_clean.csv')
 combined_df = pd.DataFrame([],columns = ['user','item','rating'])
-non_adult_genres = ['Drama','Action','Comedy','Sci-Fi','Love','Avant Garde','Horror','Supernatural','Fantasy','Adventure','Romance','Gourmet','Sports','Mystery','Slice of Life','Suspense']
-all_genres = ['Drama','Action','Comedy','Sci-Fi','Love','Avant Garde','Horror','Supernatural','Fantasy','Adventure','Romance','Gourmet','Ecchi','Sports','Mystery','Slice of Life','Suspense','Erotica']
+non_adult_genres = ['Drama','Action','Comedy','Sci-Fi','Avant Garde','Horror','Supernatural','Fantasy','Adventure','Romance','Gourmet','Sports','Mystery','Slice of Life','Suspense']
+all_genres = ['Drama','Action','Comedy','Sci-Fi','Avant Garde','Horror','Supernatural','Fantasy','Adventure','Romance','Gourmet','Ecchi','Sports','Mystery','Slice of Life','Suspense','Erotica']
 
 #no adult recommendations by default
 adult_recommendations = 'no'
