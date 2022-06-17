@@ -20,7 +20,7 @@ The completed app can be assessed [here][10].
 
 [3]: https://myanimelist.net/about.php "MyAnimeList"
 # Data Dictionary
-[10]: https://share.streamlit.io/bryansoh/mangarecommender "Streamlit App"
+[10]: https://mangarecom.herokuapp.com/
 
 
 
@@ -87,8 +87,3 @@ The completed app can be assessed [here][10].
 - The recommender system can only recommend manga titles that are present in its data (~2,900 titles).
 - Data was scrapped in March 2022. Hence, newer titles will not be included.
 - Data is scrapped from the largest user community on MAL called "Recommendation Club", ratings will not be reflective of all manga readers
-
-
-# Citations
-1. [Japanese Manga Market Increases By 10.3% In 2021 To 675.9 Billion Yen][1]
-2. [NPD Bookscan via The Beat: Manga Made Up 76.71% of Adult Fiction Graphic Novel Sales in 2021][2]
