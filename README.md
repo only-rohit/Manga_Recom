@@ -66,12 +66,12 @@ The completed app can be assessed [here][10].
 
 # Key Findings
 ## Model Selection
-![Model Performance](images/model_performance.JPG)
+![Model Performance](images/model_performance.jpg)
 - The scores above are calculated with a relevant score threshold of >= 7/10, at k =10
 - The scores are the calculated average after 5 folds of cross validation
 - The Baseline Only model performed the best and its recall and precision scores are almost a whole 1% higher than the 2nd best model
 
-![Baseline Random Recommendations](images/baseline.JPG)
+![Baseline Random Recommendations](images/baseline.jpg)
 - The machine learning models all vastly outperformed the baseline model that gives random recommendations
 
 
